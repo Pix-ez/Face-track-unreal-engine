@@ -1,7 +1,7 @@
 # Face-track-unreal-engine
 Using face tracking moving camera inside the unreal engine in real-time.
 
-#How to Use-
+#How to Use-  
 1)First install python library that needed using - ``` pip install -r requirements.txt ```.  
 2)In the python script change the VideoCapture device Set 0 ```cv2.VideoCapture(0)``` if using webcam here I'm using remote camera feed.  
 3) Create Unreal project with c++ and open project in Visual Studio , add this dependencies inside your **Build.cs** file in this line- 
